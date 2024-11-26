@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="a1">Select your country</label>
+        <select name="options" id="a1">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Pakisthan">Pakisthan</option>
+            <option value="Chaina">Chaina</option>
+            <option value="Russaia">Russaia</option></select><br><br>
+      <!-- cheakbox -->
+      <label for="a1">Select Your Hobby</label>
+<br>
+<input type="checkbox" name="cricket" id="a1">
+<label for="a1">Cricket</label>
+<br>
+<input type="checkbox" name="singing" id="a2">
+<label for="a2">Singing</label>
+<br>
+<input type="checkbox" name="gaming" id="a3">
+<label for="a3">Gaming</label>
+<br>
+<input type="checkbox" name="reading" id="a4">
+<label for="a4">Reading</label>
+
+
+         
+    </form>
+    <!-- Ordered and unordered list -->
+     <H2>List of fruit</H2>
+     <ul>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Pine apple</li>
+     </ul>
+     <H2>List of a car brand</H2>
+     <ol type="a">
+        <li>Audi</li>
+        <li>BMW</li>
+        <li>Mercediz</li>
+     </ol>
+     <ol>
+        <li>Audi</li>
+        <li>BMW</li>
+        <li>Mercediz</li>
+     </ol>
+     <ol type="i">
+        <li>Audi</li>
+        <li>BMW</li>
+        <li>Mercediz</li>
+        <li>Lamborgihni</li>
+     </ol>
+     <!-- table start here -->
+      <table border="1">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Class</td>
+                <td>Roll</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>XII</td>
+                <td>256</td>
+            </tr>
+            <tr>
+                <td>sankhadeep</td>
+                <td>BTech</td>
+                <td>247052</td>
+            </tr>
+            <tr>
+                <td>sayandeep</td>
+                <td>Btech</td>
+                <td>247054</td>
+            </tr>
+        </thead>
+      </table>
+
+    
+</body>
+</html>
