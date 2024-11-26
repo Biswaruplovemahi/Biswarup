@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <h3>Let us know how we can improve FreeCodeCamp</h3>
+    <form action="/submit" method="post">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" required>
+        <br><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="role">Which option best describes your current role?</label>
+        <select name="role" id="role">
+            <option value="Student">Student</option>
+            <option value="Job">Job</option>
+            <option value="Businessman">Businessman</option>
+        </select><br><br>
+
+        <label for="recommendation">How likely is it that you would recommend FreeCodeCamp to a friend?</label><br><br>
+        <input type="checkbox" name="recommend" id="definitely">
+        <label for="definitely">Definitely</label><br>
+        
+        <input type="checkbox" name="recommend" id="maybe">
+        <label for="maybe">Maybe</label><br>
+        
+        <input type="checkbox" name="recommend" id="not_sure">
+        <label for="not_sure">Not Sure</label><br><br>
+
+        <label for="likes_most">What do you like most in FreeCodeCamp?</label>
+        <select name="likes_most" id="likes_most">
+            <option value="select_an_option">Select an option</option>
+            <option value="projects">Projects</option>
+            <option value="lessons">Lessons</option>
+            <option value="community">Community</option>
+        </select><br><br>
+
+        <label for="improvements">Things that should be improved in the future:</label><br>
+        <input type="checkbox" name="improvement" id="frontend">
+        <label for="frontend">Front-end projects</label><br>
+
+        <input type="checkbox" name="improvement" id="backend">
+        <label for="backend">Back-end projects</label><br>
+
+        <input type="checkbox" name="improvement" id="dataviz">
+        <label for="dataviz">Data Visualization</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
