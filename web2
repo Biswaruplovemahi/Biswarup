@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3 MARKSHIT</title>
+</head>
+<body>
+    <h1>MARKSHIT</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Subject Code</td>
+                <td>Subject</td>
+                <td>Theory Marks</td>
+                <td>Practical Marks</td>
+                <td>obtain Marks</td>
+                <td>Grade</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Math</td>
+                <td>80</td>
+                <td>20</td>
+                <td>76</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>Physics</td>
+                <td>70</td>
+                <td>30</td>
+                <td>73</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Chemistry</td>
+                <td>70</td>
+                <td>30</td>
+                <td>74</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>English</td>
+                <td>80</td>
+                <td>20</td>
+                <td>90</td>
+                <td>A++</td>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>
