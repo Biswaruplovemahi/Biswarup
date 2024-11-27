@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Form</title>
+    <style>
+        
+        
+        h1 { text-align: center; }
+        h3 { text-align: center; }
+       textarea { width: 100%; padding: 10px; }
+        
+       
+            
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body><div class="container">
+    <h1>Membership Form</h1>
+    <h3>Fradel and Spies Fitness</h3><hr>
+    <form action="#" method="post">
+<label for="Full Name">Full Name:</label>
+      <input type="text" id="full name"><br><br>
+      <label for="Place Birth">Place Birth:</label>
+      <input type="text" name="place of Birth" id="place of birth"><br><br>
+    <label for="dob">DOB:</label>
+    <input type="date"><br><br>
+    <label for="Full Address">Full Address:</label>
+    <input type="text"><br><br>
+    <label for="Nationality">Nationality:</label>
+      <select id="Nationality">
+    <option value="INDIA">INDIAN</option>
+        </select><br><br>
+<label for="city">City:</label>
+        <input type="text">
+        <div><br><br>
+            Gender: Male <input type="radio" name="Gender"> 
+            Female <input type="radio" name="Gender">
+            Other <input type="radio" name="Gender">
+        </div>
+        <label for="Email">Email:</label>
+        <input type="text" name="email" id="email"><br><br>
+        <label for="Phone Number">Phone Number:</label>
+        <input type="number"><br><hr>
+        <h4>Type of Membership</h4>
+        <h5>*Choose your type of Membership</h5>
+        <label for="Regular">Regular (3 month)</label>
+        <input type="checkbox" name="required" id="">
+        <label for="gold">Gold (6 month)</label>
+        <input type="checkbox" name="required" id="">
+        <label for="Platinum">Platinum (12 month)</label>
+        <input type="checkbox" name="required" id=""><br><br><br>
+        <h4>Term & Condition</h4>
+        <p>This Membership is valid</p>
+        <p>Membership is not automatic</p><br><hr>
+
+    </form>
+
+</body>
+</html>
