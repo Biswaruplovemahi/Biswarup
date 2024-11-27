@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markshet</title>
+</head>
+<body>
+    <table border="100">
+        <thead>
+            <tr>
+                <td>Subject Code</td>
+                <td>Subject Name</td>
+                <td>Theory Marks</td>
+                <td>Practical Marks</td>
+                <td>Obtain Marks</td>
+                <td>Grade</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Math</td>
+                <td>80</td>
+                <td>20</td>
+                <td>76</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Physics</td>
+                <td>70</td>
+                <td>30</td>
+                <td>74</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Chemistry</td>
+                <td>70</td>
+                <td>30</td>
+                <td>72</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Biology</td>
+                <td>70</td>
+                <td>30</td>
+                <td>78</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>106</td>
+                <td>English</td>
+                <td>80</td>
+                <td>20</td>
+                <td>90</td>
+                <td>A++</td>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>
